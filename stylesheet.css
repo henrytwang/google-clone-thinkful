@@ -1,0 +1,151 @@
+html {
+overflow-y: scroll;
+overflow-x: hidden;
+min-width: 980px;
+}
+
+
+#topbarblack {
+background-color: #282828;
+height:29px;
+margin-top:-8px;
+margin-left:-8px;
+margin-right:-8px;
+padding-left:16px;
+padding-top:1px;
+}
+
+.topbar {
+height:29px;
+background-color: #282828;
+display:inline-block;
+float:left;
+font-family:Arial;
+font-size:13px;
+font-weight:700;
+text-align: center;
+line-height: 30px;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+a:link {
+color:#bbbbbb;
+text-decoration: none;
+}
+
+a:visited {
+color:#bbbbbb;t
+text-decoration: none;
+}
+
+a:active {
+color:#bbbbbb;
+text-decoration: none;
+}
+
+a:hover{
+color:white;
+text-decoration: none;
+}
+
+#currentpage{
+color:white
+}
+
+#signinbutton {
+height:27px;
+width:70px;
+float:right;
+margin-right:35px;
+margin-top:20px;
+border:1px solid lightgrey;
+text-align: center;
+line-height: 27px;
+background: #f0f0f0;
+font-family:Arial;
+font-size:13px;
+color:grey;
+border-radius: 2px;
+}
+
+#centerlogobuttons {
+position:relative;
+left:50%;
+margin-left:-112px;
+}
+
+.logobuttons {
+height:29px;
+border:1px solid lightgrey;
+display:inline-block;
+float:left;
+font-family:Arial;
+font-size:11px;
+font-weight:700;
+color:#444444;
+text-align: center;
+line-height: 20px;
+background: #f0f0f0;
+border-radius: 2px;
+}
+
+#logo {
+width:100%;
+text-align:center;
+color:red;
+position:relative;
+clear:both;
+float:left;
+margin-top:113px;
+}
+
+#searchbar {
+position:relative;
+height:25px;
+width:570px;
+border:1px solid #D9D9D9;
+float:left;
+clear:both;
+margin-top:20px;
+left:50%;
+margin-left:-268px;
+}
+
+#searchbutton {
+clear:left;
+width: 94px;
+margin:16px 0px 0px 0px;
+}
+
+#luckybutton {
+margin:16px 0px 0px 16px;
+width: 109px;
+
+}
+
+#footer{
+position: absolute;
+border-top:1px solid #EBEBEB;
+float:right;
+clear:both;
+margin-bottom:10px;
+padding-right:54px;
+bottom:0px;
+left:0px;
+right:0px;
+}
+
+.bottombar{
+float:right;
+display:inline-block;
+font-family:Arial;
+font-size:13px;
+margin-left:20px;
+margin-top:5px;
+}
+
+#bottomlinks:link {color:#666666; text-decoration: none;}      /* unvisited link */
+#bottomlinks:visited {color:#666666;text-decoration: none;}  /* visited link */
+#bottomlinks:active {color:red;}  /* selected link */
+#bottomlinks:hover{color:#666666;text-decoration:underline;}
